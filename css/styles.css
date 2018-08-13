@@ -1,0 +1,51 @@
+/*font-family: 'Dosis', sans-serif;*/
+
+body{
+    margin: 0;
+    background-color: rgb(252, 242, 155);
+}
+
+h1{
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+}
+
+img{
+    width: 400px;
+}
+
+@media screen and (max-width:480px){
+    body{
+        background-color: rgb(255, 208, 0);
+    }
+
+    img{
+        width: 100%;
+        /*prof colocou max-width:100%, mas nao rolou*/
+    }
+}
+
+@media screen and (max-width:280px){
+    h1{
+        font-size: 10px;
+        color: white;
+    }
+
+}
+
+@media only screen and (width:768px){
+    body{
+        background-color: rgb(255, 174, 0);
+    }
+}
+
+@media only screen and (orientation: landscape){
+    h1{
+        color: white;
+    }
+
+    img{
+        display: none; /*faz sumir as coisas*/
+    }
+}
+
